@@ -1,0 +1,10 @@
+.piedepagina{
+    display: flex;
+    height: 3rem;
+    justify-items:center;
+    justify-content:center;
+    align-items: center   ;
+    
+
+}
+

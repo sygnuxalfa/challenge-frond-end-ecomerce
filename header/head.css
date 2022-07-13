@@ -1,0 +1,18 @@
+.container{
+
+    
+    
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+    grid-template-rows: 75% 25%;
+    position: relative;
+    grid-area: header;
+    
+
+}
+
+.head{
+
+    background-image: url(../imagenes/banner-reloj2.png);
+    background-size: cover;
+}

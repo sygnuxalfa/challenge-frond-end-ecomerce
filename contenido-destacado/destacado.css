@@ -1,0 +1,12 @@
+.destacado{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #9e9999;
+   margin-top:   10px;
+    
+    
+
+}

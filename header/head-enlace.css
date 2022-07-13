@@ -1,0 +1,40 @@
+.head__lista{
+    display: flex;
+    grid-column: 1/ 3 ;
+    grid-row: 2 /3;
+    position: relative;
+    
+    
+    
+   
+}
+
+.head__lista-item{
+    display: flex;
+    margin-left: 1.5rem;
+    
+   
+    
+   
+
+}
+
+.head__enlace{
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 5px;
+    font-size: 1.3rem ;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Cormorant SC', serif;
+    text-shadow: 0 0 2px #323ee6;
+   
+
+
+    
+}
+
+.head__enlace:hover{
+
+    text-decoration: underline;
+}

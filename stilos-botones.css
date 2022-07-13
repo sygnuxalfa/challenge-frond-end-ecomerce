@@ -1,0 +1,19 @@
+
+.stilo__boton{
+
+    
+    border: 1px solid #007bff;
+    border-radius: .40rem;
+    color: #fdfdfd;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+    cursor: pointer;
+}
+
+.stilo__boton:hover, .stilo__boton:active, .stilo__boton:focus{
+
+    color: #007bff;
+    background-color: #e2e4e0;
+    opacity: 1;
+}
+

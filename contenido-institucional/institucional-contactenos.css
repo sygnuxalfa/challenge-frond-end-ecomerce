@@ -1,0 +1,28 @@
+.contactenos__area{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contactenos__area-descripcion{
+
+    padding: 1rem 0rem 1rem;
+    font-weight: bold;
+}
+
+.contactenos__area-nombre{
+
+    margin-bottom: 1rem;
+}
+
+.contactenos__area-mensaje{
+    width: 120%;
+    height: 5rem;
+}
+
+.contactenos__area-boton{
+    margin: .5rem 0rem 1rem;
+    background: #007df0;
+    
+    padding: .5rem 1rem ;
+}

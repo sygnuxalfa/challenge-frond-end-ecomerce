@@ -1,0 +1,40 @@
+.institucional__nosotros{
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    padding-left: 2rem;
+   
+}
+
+.institucional__redes{
+ 
+ margin-right: 1rem;
+ 
+}
+.institucional__tel{
+    margin-right: 1rem;
+}
+.institucional__medio{
+    margin-right: 1rem;
+}
+
+.institucional__descripcion{
+
+    font-weight: bold;
+    padding: .6rem 0rem;
+    font-family: 'Cormorant SC', serif;
+    text-shadow: 0 0 2px #323ee6;
+    font-size: 1.3rem;
+}
+
+.institucional__medio{
+    font-weight: bold;
+
+}
+
+.institucional__medio-contacto{
+
+    font-weight: lighter;
+}

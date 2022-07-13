@@ -1,0 +1,47 @@
+.head__buscar{
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 1 /2;   
+    justify-content: center;
+    justify-items: center;   
+    align-items:flex-end;
+    position: relative;
+   
+
+   
+}
+
+.head__buscar-cuadro{
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #007df0;
+    
+    padding: 10px;
+    height: 15px;
+    border-radius: 40px;
+    
+
+}
+
+.head__buscar-input{
+    
+    border: none;
+    background: none;
+    outline: none;
+    
+    font-size: 15px;
+    float: left;
+    
+    
+   
+}
+
+.head__buscar-boton{
+
+    padding: .5rem .6rem;
+    
+}

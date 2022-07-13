@@ -1,0 +1,7 @@
+.contenido{
+    display: flex;
+    flex-direction: column;
+    
+    grid-area: contenido;
+    position: relative;
+}

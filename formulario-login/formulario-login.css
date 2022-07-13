@@ -1,0 +1,44 @@
+body{
+
+    background: url(../imagenes/banner-reloj2.png) no-repeat;
+    background-size: cover;
+   
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.formulario__ingreso{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5%;
+    background: #9e9999;
+}
+
+.login__correo, .login__contrasena{
+
+    width: 250px;
+	height: 30px;
+	background: white;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2.5px;
+	color: rgb(12, 11, 11);
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+    margin-bottom: 1.3rem;
+}
+.login__boton{
+
+    width: 260px;
+	height: 33px;
+    background: #007df0;
+}

@@ -1,0 +1,113 @@
+.populares{
+    
+    padding-top: 1rem;
+    
+    
+    
+    
+    
+
+}
+
+.populares__contenido{
+   
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: contenido;
+    padding: 1rem 0;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.populares__card{
+    display: grid;
+    background: #8a8888;
+    
+    grid-template-areas: 
+    "card-imagen"
+    "card-base";
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto;
+    margin-right: 1rem;
+    width: calc(20% - 1rem);
+
+}
+
+.populares__card___imagen{
+    grid-area: card-imagen;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.populares__card___base{
+    display: grid;
+    grid-area: card-base;
+    row-gap: .5rem;
+    grid-template-areas: 
+    "card-header"
+    "card-descripcion";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+   
+}
+
+.populares__card___descripcion{
+
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: card-descripcion;
+    padding: 1rem 0rem;
+    background-color: rgb(233, 240, 240);
+    line-height: 1.1;
+    
+    margin: 1rem 0rem;
+    color: #131212;
+    text-align: justify;
+}
+
+
+.populares__card___titulo, .populares__card___precio{
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+
+
+.populares__titulo{
+
+    font-size: 20px;
+}
+
+
+
+.populares__header{
+    display: flex;
+    border-bottom: 2px solid #dcdcdc;
+    justify-content: space-between;
+   
+
+}
+
+.populares__boton{
+    background: transparent ;
+    border: none;
+    color: #333333;
+}
+.populares__card:last-child{
+    margin-right: 0;
+}
+
+.contenido__populares-boton {
+    
+    padding: .3rem auto;
+    background-color: #007bff;
+    font-weight: bold;
+    opacity: 0.9;
+    
+}

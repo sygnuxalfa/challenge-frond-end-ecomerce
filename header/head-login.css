@@ -1,0 +1,41 @@
+.head__login{
+
+    display: flex;  
+    grid-column: 3;
+    grid-row: 1;        
+    align-items:flex-end;
+    position: relative;
+    
+}
+
+.head__login-caja{
+    position: absolute;
+    margin-left: 60%;
+}
+.head__login-boton{
+
+    padding: .5rem 2.5rem;
+    background-color: #007bff;
+    font-weight:bold;
+    
+    border: 1px solid #007bff;
+    border-radius: .40rem;
+    color: #fdfdfd;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+
+    
+    
+
+.head__login-boton:hover, .head__login-boton:active, .head__login-boton:focus{
+
+    color: #007bff;
+    background-color: #e2e4e0;
+    opacity: 1;
+}
+
